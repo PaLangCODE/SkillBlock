@@ -1,0 +1,151 @@
+*{
+  background-color: transparent;
+}
+.container {
+  position: absolute;
+  min-height: 130vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -999;
+
+}
+
+body {
+  overflow-x: hidden;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.containerGradient {
+  background-color: #020E5E;
+  background-color: #31393C;
+  height: 100%;
+  width: 100%
+}
+
+
+.lrContainers {
+  width: 90%;
+  justify-content: end;
+  display: flex;
+}
+
+.topBanner {
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  padding: 30px 60px;
+
+}
+
+.navBrandContainer {
+  font-family: Bree Serif;
+  color: white;
+}
+
+.logo {
+  width: 10vw;
+  height: calc(10vw*0.3);
+}
+
+.tabContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.searchFields {
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 25vh;
+  border-radius: 2.25rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(-15vh);
+  filter: invert(100%);
+}
+
+.tabs {
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.selected {
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.inputs {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 160px;
+}
+
+
+.vl {
+  position: relative;
+  top: 1rem;
+  height: 20%;
+  background-color: rgb(228, 228, 228);
+  width: 0.1rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+.searchButton {
+  background-color: #EB4E5F;
+  padding: 10px;
+  border-radius: 50%;
+  transition: transform .4s;
+}
+
+.searchButton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.randomLocation {
+  height: 70vh;
+  color: rgb(0, 0, 0);
+  width: 90vw;
+  border-radius: 3rem;
+  margin: 2vh auto;
+  background:url("../images/Bg.png") center  no-repeat ;
+  display: flex;
+  place-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.labourforce {
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.lmk {
+  transform: translateX(-10vw);
+}

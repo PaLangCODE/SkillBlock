@@ -1,0 +1,256 @@
+body {
+    background-color: #31393C;
+    scroll-behavior: smooth;
+}
+
+.searchReminder {
+    width: 400px;
+    border: 1.5px solid rgb(242, 242, 242);
+    border-radius: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.filter {
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 20px
+}
+
+.searchFiltersIcon {
+    background-color: #EB4E5F;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.lrContainers {
+    width: 90%;
+    justify-content: end;
+    display: flex;
+}
+
+
+
+.topBanner {
+    display: grid;
+    grid-template-columns: 35vw 55vw;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    margin: 0 0 auto 0 ;
+    z-index: 999;
+    
+}
+
+.topBanner2 {
+    display: grid;
+    grid-template-columns: 35vw 55vw;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+    height: 12vh;
+    background-color: black;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.556));
+    margin: 0 0 0 2.5vw;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.brand{
+    color:#fff;
+    border: none;
+}
+
+.rentalsContent {
+    display: flex;
+    justify-content: start;
+    height: 85vh;
+    overflow: none;
+}
+
+.rentalsContentL {
+    width: 50%;
+    min-height:250vh;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    margin-top:5vh;
+    border-right: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(2, 15.63vw);
+    grid-gap: 1rem;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.rentalsContentR {
+    width: 50%;
+    margin: auto;
+    
+}
+/* .RentalsMap{
+    margin-top: 10vh;
+
+} */
+.mapContainer{
+    width: 35vw;
+    border-radius: 3rem;
+    height:65vh;
+    background-color: #fff;
+    margin: auto 0 0 10%;
+    position: fixed;
+    display:flex;
+    transform: translateY(-20vh);
+    filter:drop-shadow(15px 15px 18px rgba(0, 0, 0, 0.476));
+}
+.btnToggle{
+    background-color: dodgerblue;
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+    z-index: 5;
+    transform: translate(30vw,55vh);
+    filter:drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.476) );
+}
+
+.rentalDiv {
+    width: 15.63vw;
+    height: 50.755vh;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 40%);
+    
+}
+
+.rentalMask {
+    width: 15.63vw;
+    height: 50.755vh;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 40%);
+    color: #fff;
+}
+
+.rentalMask:hover {
+    background-color: rgba(255, 255, 255, 10%);
+    color: white;
+}
+
+@keyframes mymove {
+    from {
+        background-color: #dddddd;
+    }
+
+    to {
+        background-color: #dddddd00;
+    }
+}
+
+.rentalImg {
+    height: 35vh;
+    width: 15vw;
+
+}
+
+.rentalInfo {
+    padding: 10px;
+    width: 15vw;
+    height: fit-content;
+}
+
+.rentalTitle {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    width: fit-content;
+    /* color: black; */
+}
+
+.bottom {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    /* color:gray; */
+
+}
+
+.buttumCuntainer {
+    padding: 15px;
+}
+
+.rentalDesc {
+    /* color: gray; */
+    width: fit-content;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.rentalDesc2 {
+    /* color:black; */
+    width: 14vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    font-size: 1.3rem;
+
+}
+
+.batanCunt {
+    width: 14vw;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+
+
+.bottomButton {
+    margin-top: 3.125rem;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    justify-content: end;
+    /* color:black; */
+    font-size: 1rem;
+    width: 100%;
+    transform: translateY(-3vh);
+}
+
+.ICocunt{
+    width: 6.5vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content:space-evenly;
+    place-items: center;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+/* .iconify{
+    background-color: #fff;
+} */
