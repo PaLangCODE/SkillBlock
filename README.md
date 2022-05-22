@@ -1,5 +1,7 @@
 # SkillBlock
 
+(![image](https://user-images.githubusercontent.com/57106562/169694281-f0228a22-163b-4886-922d-e55c9b1bd3ba.png)
+
 ## Inspiration:
 
 In most developing countries, there is a large sector of the economy that is called the informal sector or the unorganised sector. Employment in the informal labour market plays an important role in most developing economies. The informal sector consists of the self-employed and informal wage labour including Artisans, petty traders, small business people, and non-agricultural casual workers in the informal or formal sectors.We came to the DAO Cake idea through customer discovery interviews. We found talking to other DAO enthusiasts about their biggest pain points over the last 6 months. The one that stood out consistently was that the founding process was full of excitement and energy, everyone wanted the same things.
@@ -50,5 +52,5 @@ At PaLangCODE, we’re a team of 4 student engineers covering skill-sets from bl
 
 - To run the app on your local machine, just type yarn start in your terminal of your working directory.
 
-![This is an image](![image](https://user-images.githubusercontent.com/57106562/169694281-f0228a22-163b-4886-922d-e55c9b1bd3ba.png)
+
 
