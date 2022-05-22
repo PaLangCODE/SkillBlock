@@ -68,8 +68,8 @@ DAO’s target audience is both household and small-scale business & industries.
 
 ## Instruction to test our app
 
--Use yarn for installing the required dependencies.
+- Use yarn for installing the required dependencies.
 
--Inside terminal>yarn
+- Inside terminal>yarn
 
--To run the app on your local machine, just type yarn start in your terminal of your working directory.
+- To run the app on your local machine, just type yarn start in your terminal of your working directory.
