@@ -61,7 +61,7 @@ const Profile = () => {
     }
 
     let options = {
-      contractAddress: "0x467ebad6bb13566d8f722bc1Af72c7Ef2C65765b",
+      contractAddress: "0xd78B1544cCe372d72e58d1CD5aB76021Abe33e11",
       functionName: "addRentals",
       chain: "polygon",
       abi: [

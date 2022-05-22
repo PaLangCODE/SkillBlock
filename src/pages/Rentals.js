@@ -77,7 +77,7 @@ const Rentals = () => {
     }
 
     let options = {
-      contractAddress: "0x467ebad6bb13566d8f722bc1Af72c7Ef2C65765b",
+      contractAddress: "0xd78B1544cCe372d72e58d1CD5aB76021Abe33e11",
       functionName: "addDatesBooked",
       abi: [
         {
@@ -221,7 +221,7 @@ const Rentals = () => {
         </div>
         <div className="rentalsContentR">
           <div className="mapContainer">
-          <RentalsMap locations={coOrdinates} setHighLight={setHighLight}/>
+          {/* <RentalsMap locations={coOrdinates} setHighLight={setHighLight}/> */}
           <div className="btnToggle"></div>
           </div>
         </div>
