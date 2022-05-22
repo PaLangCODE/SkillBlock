@@ -30,11 +30,6 @@ People who want the service can book the number of labours and upto how many day
 At PaLangCODE, we’re a team of 4 student engineers covering skill-sets from blockchain, front-end dedicated ReactJS. Over the course of the last 1 months we’ve evaluated and built products on 4 different blockchains in search of the right fit for our backend. Our core team has worked together in the future-of-work industry for over 6 months. We’ve all been heads down on building out the core platform. As the solution architect, I personally experimented with MATIC in my spare time and quickly found it a pleasure to use. Having developed in the Moralis SDK for most of my experience and VS Code tooling made it very fast to turn out a usable product.
 
 
-# What's next?
-
-## Deliverables
-
-With the limited resources (me) and time available I’ve focused purely on the smart contract. We’ve commenced the front-end in React. We will continue to work on this over the coming weeks to bring the full benefit of the DApp.
 
 
 ## Roadmap
@@ -54,3 +49,6 @@ With the limited resources (me) and time available I’ve focused purely on the 
 - Inside terminal>yarn
 
 - To run the app on your local machine, just type yarn start in your terminal of your working directory.
+
+![This is an image](![image](https://user-images.githubusercontent.com/57106562/169694281-f0228a22-163b-4886-922d-e55c9b1bd3ba.png)
+
