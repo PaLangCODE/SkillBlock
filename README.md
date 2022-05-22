@@ -1,6 +1,6 @@
 # SkillBlock
 
-(![image](https://user-images.githubusercontent.com/57106562/169694281-f0228a22-163b-4886-922d-e55c9b1bd3ba.png)
+![image](https://user-images.githubusercontent.com/57106562/169694281-f0228a22-163b-4886-922d-e55c9b1bd3ba.png)
 
 ## Inspiration:
 
