@@ -12,6 +12,11 @@
     z-index: 999;
 }
 
+.brand2{
+    color:#fff;
+    border: none;
+}
+
 .vectorContainer{
     height: 120vh;
     width: 100%;

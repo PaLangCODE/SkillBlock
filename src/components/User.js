@@ -27,7 +27,7 @@ function User({account}) {
   return (
     <>
       <div onClick={()=> setVisible(true)}>
-        <Icon fill="#000000" size={24} svg="user" />
+        <Icon fill="#ffffff" size={24} svg="user" />
       </div>
       <Modal
         onCloseButtonPressed={()=> setVisible(false)}

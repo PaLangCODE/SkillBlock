@@ -1,0 +1,5 @@
+.user{
+    height: 50vh !important;
+    position: fixed;
+    z-index: 8;
+}

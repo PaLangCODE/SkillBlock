@@ -1,11 +1,9 @@
 import React from "react";
 import "./Profile.css";
-//import { defaultImgs } from "../defaultimgs";
-import { TextArea, Icon, ConnectButton } from "web3uikit";
+import { Link } from "react-router-dom";
+import { Icon, ConnectButton, useNotification } from "web3uikit";
 import { useState, useRef } from "react";
-//import TweetInFeed from "../components/TweetInFeed";
 import { useMoralis, useWeb3ExecuteFunction } from "react-moralis";
-//import { layoutState } from "web3uikit/dist/components/LinkTo/types";
 import User from "../components/User";
 
 
@@ -17,7 +15,7 @@ const Profile = () => {
   const inputFile = useRef(null);
   const [selectedFile, setSelectedFile] = useState();
   const [theFile, setTheFile] = useState();
-  //const [tweet, setTweet] = useState();
+  
 
   const [nameS, setNameS] = useState('');
   const [cityS, setCityS] = useState('');
@@ -27,12 +25,21 @@ const Profile = () => {
   const [dosDescriptionS, setDosDescriptionS] = useState('');
   const [pricePerDayS, setPricePerDayS] = useState();
   const [datesBookedS, setDatesBookedS] = useState([]);
-  //const [counterS]=useState();
   const [idS]=useState();
   const[laboursS]=useState([]);
+  const dispatch = useNotification();
+
+  const handleSuccess = () => {
+    dispatch({
+      type: "success",
+      message: `Nice! You have booked your service!!`,
+      title: "Details provided Succesfully",
+      position: "bottomL",
+    });
+  };
 
   async function maticTweet() {
-    //if (!tweet) return;
+    
 
     if (!nameS) return;
     if (!cityS) return;
@@ -133,7 +140,7 @@ const Profile = () => {
     await contractProcessor.fetch({
       params: options,
       onSuccess: () => {
-        console.log("success");
+        handleSuccess();
       },
       onError: (error) => {
         console.log(error.message);
@@ -153,7 +160,8 @@ const Profile = () => {
 
   return (
     <>
-      <div className="pageIdentify"><span>Home</span> <div className="lrContainers">
+      <div className="pageIdentify"><Link to="/"><span className="brand">Home</span></Link> 
+      <div className="lrContainers">
         {account && <User account={account} />}
         <ConnectButton />
       </div></div>

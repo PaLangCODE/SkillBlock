@@ -32,6 +32,7 @@ body {
     width: 90%;
     justify-content: end;
     display: flex;
+    z-index: 1000;
 }
 
 
@@ -42,9 +43,10 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100vw;
-    height: 8vh;
+    height: 12vh;
     margin: 0 0 auto 0 ;
     z-index: 999;
+    
     
 }
 
@@ -85,8 +87,8 @@ body {
     margin-top:5vh;
     border-right: 2px solid white;
     display: grid;
+    grid-gap: 2rem;
     grid-template-columns: repeat(2, 15.63vw);
-    grid-gap: 1rem;
     justify-content: space-evenly;
     align-content: space-evenly;
     
@@ -108,7 +110,7 @@ body {
 .mapContainer{
     width: 35vw;
     border-radius: 3rem;
-    height:65vh;
+    height: 65vh;
     background-color: #fff;
     margin: auto 0 0 10%;
     position: fixed;
@@ -116,11 +118,13 @@ body {
     transform: translateY(-20vh);
     filter:drop-shadow(15px 15px 18px rgba(0, 0, 0, 0.476));
 }
+
 .btnToggle{
     background-color: dodgerblue;
-    width: 3vw;
-    height: 6vh;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
     z-index: 5;
     transform: translate(30vw,55vh);
     filter:drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.476) );
@@ -151,6 +155,15 @@ body {
     background-color: rgba(255, 255, 255, 10%);
     color: white;
 }
+.rentalMaskH {
+    width: 15.63vw;
+    height: 50.755vh;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 10%);
+    color: #fff;
+}
 
 @keyframes mymove {
     from {
@@ -176,8 +189,9 @@ body {
 
 .rentalTitle {
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: px;
     width: fit-content;
+    text-shadow: 2px 2px 2px black;
     /* color: black; */
 }
 
@@ -202,7 +216,10 @@ body {
     /* color: gray; */
     width: fit-content;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+    color: white;
 }
 
 .rentalDesc2 {
@@ -213,7 +230,8 @@ body {
     align-items: center;
     width: fit-content;
     font-size: 1.3rem;
-
+    font-weight: 100;
+    text-shadow: 2px 2px 2px black;
 }
 
 .batanCunt {
@@ -239,17 +257,17 @@ body {
     font-size: 1rem;
     width: 100%;
     transform: translateY(-3vh);
+    font-weight: 100;
 }
 
 .ICocunt{
-    width: 6.5vw;
-    height: 4.5vh;
+    width: 75px;
+    height: 1.2rem;
     display: flex;
     justify-content:space-evenly;
     place-items: center;
     background-color: black;
     border-radius: 25px;
-    
 }
 /* .iconify{
     background-color: #fff;

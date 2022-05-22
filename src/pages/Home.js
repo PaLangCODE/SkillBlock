@@ -55,25 +55,29 @@ const Home = () => {
                 onChange={(data) => setDestination(data.label)}
                 options={[
                   {
-                    id: "ny",
-                    label: "Bhubaneswar"
+                    id: "ab",
+                    label: "Enter City"
                   },
                   {
-                    id: "lon",
+                    id: "ny",
                     label: "Delhi"
                   },
                   {
-                    id: "db",
-                    label: "Dubai"
+                    id: "Pt",
+                    label: "Patna"
                   },
                   {
-                    id: "la",
-                    label: "Los Angeles"
+                    id: "Rn",
+                    label: "Ranchi"
+                  },
+                  {
+                    id: "Kk",
+                    label: "Kolkata"
                   },
                 ]}
               />
           </div>
-          <div className="vl" />
+          
           <div className="inputs">
             Rent From
             <DatePicker
@@ -81,7 +85,7 @@ const Home = () => {
                 onChange={(event) => setCheckIn(event.date)}
             />
           </div>
-          <div className="vl" />
+          
           <div className="inputs">
             Rent To
             <DatePicker
@@ -89,7 +93,7 @@ const Home = () => {
                 onChange={(event) => setCheckOut(event.date)}
             />
           </div>
-          <div className="vl" />
+          
           
           <Link to={"/rentals"} state={{
             destination: destination,

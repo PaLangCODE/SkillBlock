@@ -24,7 +24,7 @@ const Rentals = () => {
       type: "success",
       message: `Nice! You have booked a Labour at ${searchFilters.destination}!!`,
       title: "Booking Succesful",
-      position: "bpttomL",
+      position: "bottomL",
     });
   };
   const handleError = (msg) => {
@@ -52,7 +52,7 @@ const Rentals = () => {
       const Rentals = Moralis.Object.extend("Services");
       const query = new Moralis.Query(Rentals);
       query.equalTo("city", searchFilters.destination);
-      //query.greaterThanOrEqualTo("maxGuests_decimal", searchFilters.guests);
+      
 
       const result = await query.find();
       let cords = [];
@@ -127,7 +127,7 @@ const Rentals = () => {
 
   return (
     <>
-    
+      
       <div className="topBanner2">
         <div>
           <Link to="/">
@@ -136,14 +136,16 @@ const Rentals = () => {
             </div>
           </Link>
         </div>
-
         <div className="lrContainers">
           {account &&
-            <User account={account} />
+            <User           
+            account={account} />
           }
           <ConnectButton />
         </div>
+        
       </div>
+      
 
     
       <div className="rentalsContent">
@@ -161,7 +163,7 @@ const Rentals = () => {
                       backgroundImage: `url(${e.attributes.imgUrl})`
                     }
                   }>
-                  <div className = 'rentalMask'>
+                  <div className ={highLight ==i ?"rentalMaskH" : 'rentalMask'}>
                     <div className="rentalInfo">
                       <div className="batanCunt">
                         <Button 
@@ -189,7 +191,7 @@ const Rentals = () => {
                       <div className="rentalDesc">
                         {e.attributes.unoDescription}
                       </div>
-                      <div className="rentalDesc2">
+                      <div className="rentalDesc">
                         {e.attributes.dosDescription}
                         
                       </div>
@@ -227,5 +229,7 @@ const Rentals = () => {
     </>
   );
 };
+
+
 
 export default Rentals;
