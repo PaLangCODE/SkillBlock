@@ -12,6 +12,7 @@
 ![image](https://user-images.githubusercontent.com/57106562/169696659-5e00be01-8462-47a6-a4c5-8889b6dd90a2.png)
 
 
+![Rentals Page](https://user-images.githubusercontent.com/57106562/170230427-e7237bef-76da-4fe5-b788-bb4e4f4ffba7.png)
 
 ## Inspiration:
 
