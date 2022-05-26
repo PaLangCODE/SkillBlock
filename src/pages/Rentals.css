@@ -44,10 +44,13 @@ body {
     align-items: center;
     width: 100vw;
     height: 12vh;
-    margin: 0 0 auto 0 ;
+    margin: 0 0 auto 0;
     z-index: 999;
-    
-    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    /* position:fixed; */
+
+
 }
 
 .topBanner2 {
@@ -55,20 +58,20 @@ body {
     grid-template-columns: 35vw 55vw;
     justify-content: space-evenly;
     align-items: center;
-    width: 95vw;
+    width: 100vw;
     height: 12vh;
     background-color: black;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.556));
-    margin: 0 0 0 2.5vw;
+    margin: 0 0 auto 0;
     position: fixed;
     z-index: 999;
 
 }
 
-.brand{
-    color:#fff;
+.brand {
+    color: #fff;
     border: none;
 }
 
@@ -81,17 +84,17 @@ body {
 
 .rentalsContentL {
     width: 50%;
-    min-height:250vh;
+    min-height: 250vh;
     overflow-x: hidden;
-    overflow-y:scroll;
-    margin-top:5vh;
+    overflow-y: scroll;
+    margin-top: 5vh;
     border-right: 2px solid white;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(2, 15.63vw);
     justify-content: space-evenly;
     align-content: space-evenly;
-    
+
 }
 
 ::-webkit-scrollbar {
@@ -101,33 +104,34 @@ body {
 .rentalsContentR {
     width: 50%;
     margin: auto;
-    
+
 }
+
 /* .RentalsMap{
     margin-top: 10vh;
 
 } */
-.mapContainer{
+.mapContainer {
     width: 35vw;
     border-radius: 3rem;
     height: 65vh;
     background-color: #fff;
     margin: auto 0 0 10%;
     position: fixed;
-    display:flex;
+    display: flex;
     transform: translateY(-20vh);
-    filter:drop-shadow(15px 15px 18px rgba(0, 0, 0, 0.476));
+    filter: drop-shadow(15px 15px 18px rgba(0, 0, 0, 0.476));
 }
 
-.btnToggle{
+.btnToggle {
     background-color: dodgerblue;
     width: 50px;
     height: 50px;
     border-radius: 100px;
     position: absolute;
     z-index: 5;
-    transform: translate(30vw,55vh);
-    filter:drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.476) );
+    transform: translate(30vw, 55vh);
+    filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.476));
 }
 
 .rentalDiv {
@@ -138,7 +142,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 40%);
-    
+
 }
 
 .rentalMask {
@@ -155,6 +159,7 @@ body {
     background-color: rgba(255, 255, 255, 10%);
     color: white;
 }
+
 .rentalMaskH {
     width: 15.63vw;
     height: 50.755vh;
@@ -260,15 +265,16 @@ body {
     font-weight: 100;
 }
 
-.ICocunt{
+.ICocunt {
     width: 75px;
     height: 1.2rem;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     place-items: center;
     background-color: black;
     border-radius: 25px;
 }
+
 /* .iconify{
     background-color: #fff;
 } */

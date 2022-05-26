@@ -128,7 +128,7 @@ const Rentals = () => {
   return (
     <>
       
-      <div className="topBanner2">
+      <div className="topBanner">
         <div>
           <Link to="/">
             <div className="labourforce">
@@ -139,7 +139,7 @@ const Rentals = () => {
         <div className="lrContainers">
           {account &&
             <User           
-            account={account} />
+            account={account} style={{cusror:"pionter"}}/>
           }
           <ConnectButton />
         </div>
