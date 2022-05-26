@@ -84,7 +84,7 @@ body {
 
 .rentalsContentL {
     width: 50%;
-    min-height: 250vh;
+    min-height: 120vh;
     overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 5vh;
@@ -93,7 +93,7 @@ body {
     grid-gap: 2rem;
     grid-template-columns: repeat(2, 15.63vw);
     justify-content: space-evenly;
-    align-content: space-evenly;
+    align-content: start;
 
 }
 
