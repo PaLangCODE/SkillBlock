@@ -41,8 +41,8 @@ body {
   margin-right: auto;
   background-color: black;
   border-radius: 0px 0px 10px 10px;
-  position: fixed;
-  transform: translateY(-2vh);
+  /* position: fixed;
+  transform: translateY(-2vh); */
 }
 
 .navBrandContainer {
@@ -71,7 +71,7 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  /* transform: translateY(-15vh); */
+  transform: translateY(-15vh);
   filter: invert(100%);
 }
 
@@ -136,7 +136,7 @@ body {
   display: flex;
   place-items: center;
   animation: chng 20s infinite; 
-  transform: translateY(15vh);
+  /* transform: translateY(15vh); */
 }
 
 @keyframes chng{
