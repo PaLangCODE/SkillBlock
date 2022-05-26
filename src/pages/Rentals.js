@@ -221,7 +221,7 @@ const Rentals = () => {
         </div>
         <div className="rentalsContentR">
           <div className="mapContainer">
-          <RentalsMap locations={coOrdinates} setHighLight={setHighLight}/>
+          {/* <RentalsMap locations={coOrdinates} setHighLight={setHighLight}/> */}
           <div className="btnToggle"></div>
           </div>
         </div>
