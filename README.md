@@ -16,7 +16,13 @@
 
 ## Inspiration:
 
-In most developing countries, there is a large sector of the economy that is called the informal sector or the unorganised sector. Employment in the informal labour market plays an important role in most developing economies. The informal sector consists of the self-employed and informal wage labour including Artisans, petty traders, small business people, and non-agricultural casual workers in the informal or formal sectors.We came to the DAO Cake idea through customer discovery interviews. We found talking to other DAO enthusiasts about their biggest pain points over the last 6 months. The one that stood out consistently was that the founding process was full of excitement and energy, everyone wanted the same things.
+In most developing countries, there is a large sector of the economy that is called the informal sector or the unorganised sector. Employment in the informal labour market plays an important role in most developing economies. The informal sector consists of the self-employed and informal wage labour including Artisans, petty traders, labourers, electricians, plumbers, small business people, and non-agricultural casual workers.
+
+Seeing the rise in unemployment across various countries due to increasing population, competition and COVID-19 we came across an idea of creating a DAO for providing a platform for informal workmen to list and bid for their services and also for people looking for helpers, labours and workmen to get their service easily.
+
+Major issue in this sector is that workmen don’t get the right compensation for their work and also common people looking for better workmen don’t get proper service. People don’t get to know about the nearest labourers, workmen available near them.
+Our DAO sets out to solve this issue using automation and securing money transfer through blockchain. To get to know about the nearest labourers we have integrated Google Maps in our DAO. 
+
 
 
 ## Application:
